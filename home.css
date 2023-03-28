@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: cambria;
+    
+}
+body{
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.5)100%, rgba(0,0,0,0.5)100%), url(lp5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul img{
+    width: 300px;
+}
+ul button{
+    width: 300px;
+    padding: 10px;
+    background: none;
+    border: 1px solid #009b6d;
+    border-radius: 5px;
+}
+ul button:hover{
+    background: #01c087;
+    cursor: pointer;
+}
+ul button a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
